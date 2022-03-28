@@ -1,1 +1,1 @@
-In this project we go know a litle more about Uruguay.
+In this project we go know a little more about Uruguay.
