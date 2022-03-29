@@ -1,0 +1,51 @@
+*{ /* Basic Settings for the Style Site. */
+	padding: 0px;
+	margin: 0px;
+}
+
+:root{
+	--ycolor1: #FFEFA3; /* Yellow color to simulate the Sun in the Uruguay flag. */
+	--ycolor2: #F1DA6E;
+	--ycolor3: #CCB441;
+	--ycolor4: #AA9221;
+	--ycolor5: #7C6804;
+	
+	--color1: #9DACBC; /* Blue color to simulate the Blue in the Uruguay flag. */
+	--color2: #687E95;
+	--color3: #435D79;
+	--color4: #2A4561;
+	--color5: #152E49;
+	
+	--principal-font: Arial, Helvetica, Verdana, sans-serif; /* Principal font for the Site. */
+}
+
+body{
+	font-family: var(--principal-font);
+	background-color: var(--color3);
+}
+
+main{
+	background-color: white;
+	padding: 15px;
+	border-radius: 0px 0px 5px 5px;
+	max-width: 750px;
+	min-width: 370px;
+	margin: 10px auto 10px auto;
+	box-shadow: 2px 2px 3px var(--color4);
+}
+
+main p{
+	margin-bottom: 6px;
+	font-weight: semi-bold;
+	color: #282828;
+}
+
+main h1, h2{
+	margin-bottom: 10px;
+}
+
+main img{
+	max-width: 100%;
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
