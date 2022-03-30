@@ -39,12 +39,14 @@ main p{
 	font-weight: semi-bold;
 	color: #181818;
 	text-align: justify;
+	text-indent: 15px;
+	line-height: 22px;
 }
 
 main h1, h2{
 	color: #282828;
 	margin-bottom: 10px;
-	text-shadow: 2px 2px 0px var(--ycolor3);
+	text-shadow: 1px 2px 1px var(--ycolor3);
 	text-align: justify;
 }
 
