@@ -35,13 +35,17 @@ main{
 }
 
 main p{
-	margin-bottom: 6px;
+	margin-bottom: 15px;
 	font-weight: semi-bold;
-	color: #282828;
+	color: #181818;
+	text-align: justify;
 }
 
 main h1, h2{
+	color: #282828;
 	margin-bottom: 10px;
+	text-shadow: 2px 2px 0px var(--ycolor3);
+	text-align: justify;
 }
 
 main img{
